@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  color: #5f6368;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+input {
+  width: 100%;
+  border: 2px solid #dadce0;
+  border-radius: 4px;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+a {
+  color: #1a73e8;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 500;
+}
+
+img {
+  width: 85px;
+  height: 70px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 430px;
+  border: 2px solid #dadce0;
+  border-radius: 8px;
+  /* padding: 50px 36px; */
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+}
+
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0753b6;
+}
+
+.left-btn {
+  background: none;
+  padding-left: 0;
+  color: #1a73e8;
+  font-size: 14px;
+}
+
+.left-btn:hover {
+  background: none;
+  color: #0753b6;
+}
+
+.menu-btn {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.menu-btn > select {
+  border: none;
+  color: #5f6368;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.menu-btn > select:hover {
+  cursor: pointer;
+}
+
+.hyperlinks {
+  display: flex;
+  gap: 24px;
+}
+
+.hyperlinks > a {
+  color: #5f6368;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+@media (max-width: 580px) {
+  .wrapper,
+  .menu-btn {
+    width: 85%;
+  }
+}
